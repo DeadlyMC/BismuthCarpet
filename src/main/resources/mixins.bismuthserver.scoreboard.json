@@ -1,0 +1,21 @@
+{
+  "package": "si.bismuth.scoreboard.mixins",
+  "refmap": "mixins.bismuthserver.refmap.json",
+  "minVersion": "0.7.3",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "CommandResultsMixin",
+    "SavedScoreboardDataMixin",
+    "ScoreboardCommandMixin",
+    "ScoreboardMixin",
+    "ScoreboardScoreMixin",
+    "ServerPlayerEntityMixin",
+    "TriggerCommandMixin"
+  ],
+  "client": [
+    "GameGuiMixin",
+    "PlayerTabOverlayMixin"
+  ],
+  "server": [
+  ]
+}

@@ -1,11 +1,11 @@
 package si.bismuth.utils;
 
 public interface IRecipeBookItemDuper {
-	void clearDupeItem();
+	void bismuthServer$clearDupeItem();
 
-	void dupeItem(int slot);
+	void bismuthServer$dupeItem(int slot);
 
-	int getDupeItem();
+	int bismuthServer$getDupeItem();
 
-	void dupeItemScan(boolean s);
+	void bismuthServer$dupeItemScan(boolean s);
 }
